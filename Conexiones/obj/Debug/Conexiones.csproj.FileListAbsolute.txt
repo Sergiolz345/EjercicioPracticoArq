@@ -1,0 +1,6 @@
+C:\Users\Sergio Lopez Castro\source\repos\Sistema de registro y visualizacion de Clientes\Conexiones\bin\Debug\Conexiones.dll
+C:\Users\Sergio Lopez Castro\source\repos\Sistema de registro y visualizacion de Clientes\Conexiones\bin\Debug\Conexiones.pdb
+C:\Users\Sergio Lopez Castro\source\repos\Sistema de registro y visualizacion de Clientes\Conexiones\obj\Debug\Conexiones.csproj.AssemblyReference.cache
+C:\Users\Sergio Lopez Castro\source\repos\Sistema de registro y visualizacion de Clientes\Conexiones\obj\Debug\Conexiones.csproj.CoreCompileInputs.cache
+C:\Users\Sergio Lopez Castro\source\repos\Sistema de registro y visualizacion de Clientes\Conexiones\obj\Debug\Conexiones.dll
+C:\Users\Sergio Lopez Castro\source\repos\Sistema de registro y visualizacion de Clientes\Conexiones\obj\Debug\Conexiones.pdb

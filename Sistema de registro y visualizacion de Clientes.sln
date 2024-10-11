@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sistema de registro y visualizacion de Clientes", "Sistema de registro y visualizacion de Clientes\Sistema de registro y visualizacion de Clientes.csproj", "{8E3F264F-D9D6-4369-A925-6E6F2692C454}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Conexiones", "Conexiones\Conexiones.csproj", "{CFDB1868-5071-44A8-BC15-D3C5166F1297}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E3F264F-D9D6-4369-A925-6E6F2692C454}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E3F264F-D9D6-4369-A925-6E6F2692C454}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E3F264F-D9D6-4369-A925-6E6F2692C454}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E3F264F-D9D6-4369-A925-6E6F2692C454}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDB1868-5071-44A8-BC15-D3C5166F1297}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDB1868-5071-44A8-BC15-D3C5166F1297}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDB1868-5071-44A8-BC15-D3C5166F1297}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDB1868-5071-44A8-BC15-D3C5166F1297}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A3DDEB7-B6F4-41CA-BB85-D4D8B0071D58}
+	EndGlobalSection
+EndGlobal

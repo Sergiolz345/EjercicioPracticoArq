@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E3F264F-D9D6-4369-A925-6E6F2692C454}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema_de_registro_y_visualizacion_de_Clientes</RootNamespace>
+    <AssemblyName>Sistema de registro y visualizacion de Clientes</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Vistas\Aceptar_o_Rechazar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Aceptar_o_Rechazar.Designer.cs">
+      <DependentUpon>Aceptar_o_Rechazar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Añadir Prospectos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Añadir Prospectos.Designer.cs">
+      <DependentUpon>Añadir Prospectos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Controladores\ObservacionesController.cs" />
+    <Compile Include="Controladores\ProspectoEstatusController.cs" />
+    <Compile Include="Controladores\AgregarUsuarioController.cs" />
+    <Compile Include="Controladores\DetallesProspectoController.cs" />
+    <Compile Include="Controladores\DocumentosController.cs" />
+    <Compile Include="Controladores\FiltrarProspectosController.cs" />
+    <Compile Include="Controladores\ListadoProspectosController.cs" />
+    <Compile Include="Controladores\DetallesProspectoRechazadoController.cs" />
+    <Compile Include="Controladores\ProspectosController.cs" />
+    <Compile Include="Controladores\VerificarUsuarioController.cs" />
+    <Compile Include="Vistas\Documentos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Documentos.Designer.cs">
+      <DependentUpon>Documentos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Lista Prospectos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Lista Prospectos.Designer.cs">
+      <DependentUpon>Lista Prospectos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Modelos\Datos_Usuario.cs" />
+    <Compile Include="Modelos\Documento.cs" />
+    <Compile Include="Modelos\MotivoInactividad.cs" />
+    <Compile Include="Modelos\Observacion.cs" />
+    <Compile Include="Modelos\Prospecto.cs" />
+    <Compile Include="Modelos\Usuario.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Vistas\Rechazado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\Rechazado.Designer.cs">
+      <DependentUpon>Rechazado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vistas\RegistrarUsuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vistas\RegistrarUsuarios.Designer.cs">
+      <DependentUpon>RegistrarUsuarios.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\Aceptar_o_Rechazar.resx">
+      <DependentUpon>Aceptar_o_Rechazar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Añadir Prospectos.resx">
+      <DependentUpon>Añadir Prospectos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Documentos.resx">
+      <DependentUpon>Documentos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Lista Prospectos.resx">
+      <DependentUpon>Lista Prospectos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Vistas\Rechazado.resx">
+      <DependentUpon>Rechazado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vistas\RegistrarUsuarios.resx">
+      <DependentUpon>RegistrarUsuarios.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Conexiones\Conexiones.csproj">
+      <Project>{cfdb1868-5071-44a8-bc15-d3c5166f1297}</Project>
+      <Name>Conexiones</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Imagenes\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
